@@ -56,7 +56,7 @@ git version 2.41.0.windows.3
 First step is to clone the current project on your local machine. You can do this by running the following command on terminal,
 or using any other tool like Github Desktop or similar.
 ```bash
-$ git clone https://github.com/mondr4g/itj-technical-test.git
+$ git clone https://github.com/mondr4g/itj-dexcom-tecnical-test.git
 ```
 
 Once you have the project installed and having all the requirements mentioned previously. You need to be located on the src directory
@@ -180,7 +180,7 @@ Space O(n) ->
 
 ## Code
 
-You can see the complete code in ./functions/numList.js -> findMissingNumsList
+You can see the complete code in ./functions/numsList.js -> findMissingNumsList
 
 ```javascript
 // Validate list length O(1)
