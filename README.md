@@ -109,6 +109,8 @@ For this project Jest framework was used to create each of the unit test cases. 
     missingNumbers.test.js
     twoSummNumbers.test.js
 
+NOTE: You can include any other unit test on this files using jest syntax to be executed with the others.
+
 To run this unit test cases, you can use the following comand on the terminal
 ```bash
 $ npm test
@@ -247,7 +249,7 @@ Space O(n) ->
 
 ## Code
 
-You can see the complete code in ./functions/numList.js -> findIndexTwoSum
+You can see the complete code in ./functions/numsList.js -> findIndexTwoSum
 
 ```javascript
 // Validate list length O(1)
