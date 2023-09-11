@@ -272,7 +272,7 @@ if (!isNumValuesInRange) {
 // Find index of the two sum numbers O(n)
 let numsMap = new Map()
 for (let i = 0; i < n; i++) {
-    if (numsMap.has(target - nums[i])) return [numsMap.get(target-nums[i]), i];
+    if (numsMap.has(target - nums[i])) return {intStatus: 200, result: [numsMap.get(target-nums[i]), i]};
     numsMap.set(nums[i],i);
 }
 ```
