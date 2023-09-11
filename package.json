@@ -1,0 +1,16 @@
+{
+  "name": "itj-dexcom-tecnical-test",
+  "version": "1.0.0",
+  "description": "ITJ, Dexcom Technical Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "Jose Mena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
